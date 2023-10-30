@@ -6,9 +6,9 @@ namespace Day25.NumberConversion
     {
         public string Convert(BigInteger number)
         {
-            var base5Digits = CreateBase5NumberArray(number);
-            var snafuDigits = ConvertBase5DigitsToSnafuDigits(base5Digits);
-            return CreateSnafuString(snafuDigits);
+            var numberArray = CreateBase5NumberArray(number);
+            ConvertBase5DigitsToSnafuDigits(numberArray);
+            return CreateSnafuString(numberArray);
         }
 
 
@@ -28,9 +28,8 @@ namespace Day25.NumberConversion
             return digitValues;
         }
 
-        private int[] ConvertBase5DigitsToSnafuDigits(int[] digitValues)
+        private void ConvertBase5DigitsToSnafuDigits(int[] digitValues)
         {
-            int[] snafuDigitIntValues = new int[digitValues.Length];
             int overflow = 0;
             for (int i = 0; i < digitValues.Length; i++)
             {
@@ -41,9 +40,8 @@ namespace Day25.NumberConversion
                     overflow = 1;
                     value -= Snafu.ValuesPerDigit;
                 }
-                snafuDigitIntValues[(digitValues.Length-i)-1] = value;
+                digitValues[(digitValues.Length-i)-1] = value;
             }
-            return snafuDigitIntValues;
         }
 
         private string CreateSnafuString(int[] snafuDigitIntValues)
