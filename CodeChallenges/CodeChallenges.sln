@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{44AF013C-FF00-4252-BF42-7AEE9CBA3474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdventOfCode2022", "AdventOfCode2022", "{F845AC46-7430-4B67-B599-6A6258DCC064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02", "Day2\Day02.csproj", "{82C4EB12-84FD-423E-8DD0-4130543F76C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02Tests", "Day2Tests\Day02Tests.csproj", "{DEFE2229-2A74-4F67-A798-90C38B2071A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextReaders", "TextReaders\TextReaders.csproj", "{E8117E68-F45B-46E3-85B2-B4BEE6248975}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day25", "Day25\Day25.csproj", "{6B262329-E392-4FA3-8C66-2A7197DB2991}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day25Tests", "Day25Tests\Day25Tests.csproj", "{E1954CBF-0586-4DC6-B0F7-C826765B37C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C4EB12-84FD-423E-8DD0-4130543F76C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C4EB12-84FD-423E-8DD0-4130543F76C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C4EB12-84FD-423E-8DD0-4130543F76C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C4EB12-84FD-423E-8DD0-4130543F76C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFE2229-2A74-4F67-A798-90C38B2071A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFE2229-2A74-4F67-A798-90C38B2071A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFE2229-2A74-4F67-A798-90C38B2071A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFE2229-2A74-4F67-A798-90C38B2071A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8117E68-F45B-46E3-85B2-B4BEE6248975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8117E68-F45B-46E3-85B2-B4BEE6248975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8117E68-F45B-46E3-85B2-B4BEE6248975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8117E68-F45B-46E3-85B2-B4BEE6248975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B262329-E392-4FA3-8C66-2A7197DB2991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B262329-E392-4FA3-8C66-2A7197DB2991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B262329-E392-4FA3-8C66-2A7197DB2991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B262329-E392-4FA3-8C66-2A7197DB2991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1954CBF-0586-4DC6-B0F7-C826765B37C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1954CBF-0586-4DC6-B0F7-C826765B37C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1954CBF-0586-4DC6-B0F7-C826765B37C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1954CBF-0586-4DC6-B0F7-C826765B37C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82C4EB12-84FD-423E-8DD0-4130543F76C0} = {F845AC46-7430-4B67-B599-6A6258DCC064}
+		{DEFE2229-2A74-4F67-A798-90C38B2071A2} = {F845AC46-7430-4B67-B599-6A6258DCC064}
+		{E8117E68-F45B-46E3-85B2-B4BEE6248975} = {44AF013C-FF00-4252-BF42-7AEE9CBA3474}
+		{6B262329-E392-4FA3-8C66-2A7197DB2991} = {F845AC46-7430-4B67-B599-6A6258DCC064}
+		{E1954CBF-0586-4DC6-B0F7-C826765B37C0} = {F845AC46-7430-4B67-B599-6A6258DCC064}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC3EBE27-786A-4C71-86F8-F9FF9D1C5542}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsdevopss01:8080/tfs/visiosoftware
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Day25\\Day25.csproj
+		SccProjectTopLevelParentUniqueName1 = CodeChallenges.sln
+		SccProjectName1 = Day25
+		SccLocalPath1 = Day25
+		SccProjectUniqueName2 = Day25Tests\\Day25Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = CodeChallenges.sln
+		SccProjectName2 = Day25Tests
+		SccLocalPath2 = Day25Tests
+		SccProjectUniqueName3 = Day2\\Day02.csproj
+		SccProjectTopLevelParentUniqueName3 = CodeChallenges.sln
+		SccProjectName3 = Day2
+		SccLocalPath3 = Day2
+		SccProjectUniqueName4 = Day2Tests\\Day02Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = CodeChallenges.sln
+		SccProjectName4 = Day2Tests
+		SccLocalPath4 = Day2Tests
+		SccProjectUniqueName5 = TextReaders\\TextReaders.csproj
+		SccProjectTopLevelParentUniqueName5 = CodeChallenges.sln
+		SccProjectName5 = TextReaders
+		SccLocalPath5 = TextReaders
+	EndGlobalSection
+EndGlobal
