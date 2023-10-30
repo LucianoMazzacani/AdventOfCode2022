@@ -5,18 +5,19 @@ using TextReaders;
 var strategyGuideFilename = @"Data\EncryptedStrategyGuide.txt";
 Console.Clear();
 Console.Write(@$"
-    AdventOfCode Day2: Rock Scissors Paper
+AdventOfCode Day2: Rock Scissors Paper
     
-    Aan de hand van een versleutelde 'strategy guide' wordt bepaald hoe het spel gespeeld moet worden.
-    Aanvankelijk dachten we dat de versleuteling als volgt was:
-    A, X => Rock
-    B, Y => Paper
-    C, Z => Scissors
+Aan de hand van een versleutelde 'strategy guide' wordt bepaald hoe het spel gespeeld moet worden.
+Aanvankelijk dachten we dat de versleuteling als volgt was:
+A, X => Rock
+B, Y => Paper
+C, Z => Scissors
 
-    Later bleek dat A,B,C de Rock,Paper,Scissors zet van de tegenpartij is en dat X,Y,Z de te spelen
-    strategie X=Verliezen, Y=GelijkSpel, Z=Winnen.
+Later bleek dat A,B,C de Rock,Paper,Scissors zet van de tegenpartij is en dat X,Y,Z de te spelen
+strategie X=Verliezen, Y=GelijkSpel, Z=Winnen.
 
-    De strategyguide ({strategyGuideFilename} kan (na aanmelden) gevonden worden in https://adventofcode.com/2022/day/2
+De strategyguide ({strategyGuideFilename} kan (na aanmelden) gevonden worden in https://adventofcode.com/2022/day/2
+
 ");
 
 try
@@ -43,4 +44,5 @@ catch (Exception ex)
 {
     Console.WriteLine("Er is een fout opgetreden bij het verwerken.", ex.Message);
 }
-Console.WriteLine("Druk op een toets om het programma af te sluiten.");
+Console.WriteLine("\r\nDruk op een toets om het programma af te sluiten.");
+Console.ReadKey();
