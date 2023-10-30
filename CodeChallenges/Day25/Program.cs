@@ -11,5 +11,5 @@ var fuelNeeded = fuelRequirementsReader
     .Select(snafuNumber => snafuToNumberConvertor.Convert(snafuNumber))
     .Sum();
 
-var amountOfFuelNeededInSnafu_notation = numberToSnafuConvertor.Convert(fuelNeeded);
-Console.WriteLine($"{amountOfFuelNeededInSnafu_notation} brandstofeenheden nodig (in snafu-units)");
+var amountOfFuelNeededInSnafuNotation = numberToSnafuConvertor.Convert(fuelNeeded);
+Console.WriteLine($"{amountOfFuelNeededInSnafuNotation} brandstofeenheden nodig (in snafu-units)");

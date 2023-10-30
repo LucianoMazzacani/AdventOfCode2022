@@ -2,12 +2,13 @@
 using Day02.RockPaperScissors;
 using TextReaders;
 
+ 
 var encryptedStrategyGuideReader = new TextFileReader { Source = @"Data\EncryptedStrategyGuide.txt" };
-var strategyDectyptor = new InitialStrategyGuideDecryptor();
+var strategyDecryptor = new ImprovedStrategyGuideDecryptor();
 var game = new RockPaperScissorsGame();
 
 var encryptedStrategyGuide = encryptedStrategyGuideReader.ReadAllLines();
-var strategyGuide = strategyDectyptor.Decrypt(encryptedStrategyGuide);
+var strategyGuide = strategyDecryptor.Decrypt(encryptedStrategyGuide);
 var result = game.CalculateMyTotalScore(strategyGuide);
 
 Console.WriteLine($"Mijn totale score = {result}");
