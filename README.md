@@ -3,7 +3,7 @@ This project solves "Day2" and "Day25" of the advent of code 2022 - for demonstr
 
 **The puzzles can be found in:**  
 * https://adventofcode.com/2022/day/2 (Rock Paper Scissors)
-* https://adventofcode.com/2022/day/25 (Hull of Hot Air)
+* https://adventofcode.com/2022/day/25 (Full of Hot Air)
 
 **Usage:**  
 You could run the code with the given data or download your own set:  
